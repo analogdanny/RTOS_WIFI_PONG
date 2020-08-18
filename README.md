@@ -1,11 +1,11 @@
 # RTOS_WIFI_PONG - IoT with Real-Time Operating System on TI MSP432 Launchpad
 
-Created a 2-player pong game playable over Wi-Fi using the CC3100 Wi-Fi Booster Pack, a router or mobile hotspot, and the TI Sensors Booster Pack. 
+Created a 2-player pong game playable over Wi-Fi using the CC3100 Wi-Fi Booster Pack, a router or mobile hotspot, and the TI Sensors Booster Pack.\ 
 Attached additional components to the Microprocessor Applications II circuit board, supplied by the University of Florida.
 
 ## Multi-stage development for RTOS design and multi-threading development. 
-1st Design: Original RTOS used spin-lock algorithms with semaphores to prevent deadlocking threads. 
-2nd Design: Improved 1st design by addings in blocking and sleeping functionality, along with aperiodic thread creation.
+1st Design: Original RTOS used spin-lock algorithms with semaphores to prevent deadlocking threads.\
+2nd Design: Improved 1st design by addings in blocking and sleeping functionality, along with aperiodic thread creation.\
 3rd Design: 2nd design was further designed with thread priority, dynamic thread creation and destruction, blocking and sleeping thread capabilities,
             FIFOs, and aperiodic events, interfaceable with a touch screen LCD.
 
