@@ -40,7 +40,7 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
 &nbsp;&nbsp;&nbsp;&nbsp;and periodic events.
 
 **Game.c:** This file holds the pong game functionality using multi-threading for host and client connections, reading the joystick values, updating the LED array module, and drawing or moving objects.\
-**Game.h:** Header file for Game.c.\
+**Game.h:** Header file for Game.c.
 
 **LCDLib.c:** This file contains the LCD touch-screen drivers functions and helping functions.\
-**LCDLib.h:** Header file for LCDLib.c.\
+**LCDLib.h:** Header file for LCDLib.c.
