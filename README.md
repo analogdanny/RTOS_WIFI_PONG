@@ -1,7 +1,7 @@
 # RTOS_WIFI_PONG
 ## IoT with Real-Time Operating System on TI MSP432 Launchpad
-Created a 2-player pong game playable over Wi-Fi using the CC3100 Wi-Fi Booster Pack, a router or mobile hotspot, and the TI Sensors Booster Pack.\ 
-Attached additional components to the Microprocessor Applications II circuit board, supplied by the University of Florida.
+Created a 2-player pong game playable over Wi-Fi using the CC3100 Wi-Fi Booster Pack, a router or mobile hotspot, and the TI Sensors Booster Pack.\
+Attached additional components to the Microprocessor Applications II circuit board, supplied by the University of Florida.\
 Implemented LED drivers for built-in LED Array Module, touch screen LCD drivers, and FIFO structure and functionality.
 
 *The project Yerpers on my repository is using what was created here to make a 2-D platformer game with github user digitalcamilo. The RTOS will have 
