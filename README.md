@@ -20,24 +20,20 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
 ## Description of Files and Folders
 **G8RTOS:** The G8RTOS folder contains many files that allow the operation of a Real-Time Operation System.\
 &nbsp;&nbsp;&nbsp;**-G8RTOS.h:** The G8RTOS header file contains include paths for the scheduler and semaphores.\
-&nbsp;&nbsp;&nbsp;**-G8RTOS_CriticalSection.s:** This file holds all ASM functions needed for a Critical Section, saving or 
-&nbsp;&nbsp;&nbsp;&nbsp;restoring the state of the current PRIMASK (I-bit).\
+&nbsp;&nbsp;&nbsp;**-G8RTOS_CriticalSection.s:** This file holds all ASM functions needed for a Critical Section, saving or restoring the &nbsp;&nbsp;&nbsp;&nbsp;state of the current PRIMASK (I-bit).\
 &nbsp;&nbsp;&nbsp;**-G8RTOS_CriticalSection.h:** Header file for G8RTOS_CriticalSection.s.\
-&nbsp;&nbsp;&nbsp;**-G8RTOS_IPC.c:** This file holds all source code for the FIFO structure and functions (Initialize, Read,
-&nbsp;&nbsp;&nbsp;&nbsp;Write, Get FIFO Size).\
+&nbsp;&nbsp;&nbsp;**-G8RTOS_IPC.c:** This file holds all source code for the FIFO structure and functions(Initialize, Read, Write, Get Size).
 &nbsp;&nbsp;&nbsp;**-G8RTOS_IPC.h:** Header file for G8RTOS_IPC.c.\
 &nbsp;&nbsp;&nbsp;**-G8RTOS_Scheduler.c:** This file holds all source code for the RTOS scheduler, containing dependencies\
-&nbsp;&nbsp;&nbsp;&nbsp;and externs, defines, data structures, private variables and functions, public variables and functions. 
-&nbsp;&nbsp;&nbsp;&nbsp;The functions included are the RTOS launch, intialization, adding threads and aperiodic events, get\
-&nbsp;&nbsp;&nbsp;&nbsp;thread ID, and killing of threads.\
+&nbsp;&nbsp;&nbsp;&nbsp;and externs, defines, data structures, private variables and functions, public variables and functions. The functions 
+&nbsp;&nbsp;&nbsp;&nbsp;included are the RTOS launch, intialization, adding threads and aperiodic events, get thread ID, and killing of threads.
 &nbsp;&nbsp;&nbsp;**-G8RTOS_Scheduler.h:** Header file for G8RTOS_Scheduler.c.\
 &nbsp;&nbsp;&nbsp;**-G8RTOS_SchedulerASM.s:** This file holds all ASM functions needed for the scheduler, including\
 &nbsp;&nbsp;&nbsp;&nbsp;context switching and starting the RTOS.\
 &nbsp;&nbsp;&nbsp;**-G8RTOS_Semaphores.c:** This file contains functions to initialize, wait, and signal semaphores for
 &nbsp;&nbsp;&nbsp;&nbsp;availability.\
 &nbsp;&nbsp;&nbsp;**-G8RTOS_Semaphores.h:** Header file for G8RTOS_Semaphores.c.\
-&nbsp;&nbsp;&nbsp;**-G8RTOS_Structures.h:** This header file contains data structures for thread control blocks, thread ID, 
-&nbsp;&nbsp;&nbsp;&nbsp;and periodic events.
+&nbsp;&nbsp;&nbsp;**-G8RTOS_Structures.h:** This header file contains data structures for thread control blocks, thread ID, and periodic events.
 
 **Game.c:** This file holds the pong game functionality using multi-threading for host and client connections, reading the joystick values, updating the LED array module, and drawing or moving objects.\
 **Game.h:** Header file for Game.c.
