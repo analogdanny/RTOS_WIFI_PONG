@@ -31,8 +31,7 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
 &nbsp;&nbsp;&nbsp;**-G8RTOS_Scheduler.h:** Header file for G8RTOS_Scheduler.c.\
 &nbsp;&nbsp;&nbsp;**-G8RTOS_SchedulerASM.s:** This file holds all ASM functions needed for the scheduler, including\
 &nbsp;&nbsp;&nbsp;&nbsp;context switching and starting the RTOS.\
-&nbsp;&nbsp;&nbsp;**-G8RTOS_Semaphores.c:** This file contains functions to initialize, wait, and signal semaphores for
-&nbsp;&nbsp;&nbsp;&nbsp;availability.\
+&nbsp;&nbsp;&nbsp;**-G8RTOS_Semaphores.c:** This file contains functions to initialize, wait, and signal semaphores for availability.\
 &nbsp;&nbsp;&nbsp;**-G8RTOS_Semaphores.h:** Header file for G8RTOS_Semaphores.c.\
 &nbsp;&nbsp;&nbsp;**-G8RTOS_Structures.h:** This header file contains data structures for thread control blocks, thread ID, and periodic 
 &nbsp;&nbsp;&nbsp;&nbsp;events.
