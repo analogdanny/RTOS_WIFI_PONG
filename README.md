@@ -21,7 +21,7 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
 **G8RTOS:** The G8RTOS folder contains many files that allow the operation of a Real-Time Operation System.\
 &nbsp;&nbsp;**G8RTOS.h:** The G8RTOS header file contains include paths for the scheduler and semaphores.\
 &nbsp;&nbsp;**G8RTOS_CriticalSection.s:** This file holds all ASM functions needed for a Critical Section, saving or restoring the state.\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of the current PRIMASK (I-bit).\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of the current PRIMASK (I-bit).\
 &nbsp;&nbsp;**G8RTOS_CriticalSection.h:** Header file for G8RTOS_CriticalSection.s.\
 &nbsp;&nbsp;**G8RTOS_IPC.c:** This file holds all source code for the FIFO structure and functions (Initialize, Read, Write, Get FIFO Size).\
 &nbsp;&nbsp;**G8RTOS_IPC.h:** Header file for G8RTOS_IPC.c.\
@@ -34,7 +34,9 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
 &nbsp;&nbsp;**G8RTOS_Semaphores.h:** Header file for G8RTOS_Semaphores.c.\
 &nbsp;&nbsp;**G8RTOS_Structures.h:** This header file contains data structures for thread control blocks, thread ID, and periodic events.\
 
-**Game.c & Game.h:**
+**Game.c:** This file holds the pong game functionality using multi-threading for host and client connections, reading the joystick values,\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; updating the LED array module, and drawing or moving objects.
+**Game.h:** Header file for Game.c.\
 
-**LCDLib.c & LCDLib.h:**
-
+**LCDLib.c:** This file contains the LCD touch-screen drivers functions and helping functions.
+**LCDLib.h:** Header file for LCDLib.c.
