@@ -26,8 +26,8 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
 &nbsp;&nbsp;**G8RTOS_IPC.c:** This file holds all source code for the FIFO structure and functions (Initialize, Read, Write, Get FIFO Size).\
 &nbsp;&nbsp;**G8RTOS_IPC.h:** Header file for G8RTOS_IPC.c.\
 &nbsp;&nbsp;**G8RTOS_Scheduler.c:** This file holds all source code for the RTOS scheduler, containing dependencies and externs, defines,\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data structures, private variables and functions, public variables and functions. The functions included are the RTOS launch,\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;intialization, adding threads and aperiodic events, get thread ID, and killing of threads.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data structures, private variables and functions, public variables and functions. The functions included are the RTOS\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;launch, intialization, adding threads and aperiodic events, get thread ID, and killing of threads.\
 &nbsp;&nbsp;**G8RTOS_Scheduler.h:** Header file for G8RTOS_Scheduler.c.\
 &nbsp;&nbsp;**G8RTOS_SchedulerASM.s:** This file holds all ASM functions needed for the scheduler, including context switching and starting the RTOS.\
 &nbsp;&nbsp;**G8RTOS_Semaphores.c:** This file contains functions to initialize, wait, and signal semaphores for availability.\
