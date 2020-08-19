@@ -18,21 +18,21 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
 **CC3100SupportPackage:** This support package holds software containing SimpleLink Wi-Fi CC3100 BoosterPack drivers and routines.
 
 ### Description of Files and Folders
-**G8RTOS:** The G8RTOS folder contains many files that allow the operation of a Real-Time Operation System. 
-&nbsp;&nbsp;--G8RTOS.h: The G8RTOS header file contains include paths for the scheduler and semaphores.
-&nbsp;&nbsp;--G8RTOS_CriticalSection.s: This file holds all ASM functions needed for a Critical Section, saving or restoring the state\ 
-&nbsp;&nbsp;&nbsp;&nbsp;of the current PRIMASK (I-bit)
-&nbsp;&nbsp;--G8RTOS_CriticalSection.h: Header file for G8RTOS_CriticalSection.s
-&nbsp;&nbsp;--G8RTOS_IPC.c: This file holds all source code for the FIFO structure and functions (Initialize, Read, Write, Get FIFO Size)
-&nbsp;&nbsp;--G8RTOS_IPC.h: Header file for G8RTOS_IPC.c
-&nbsp;&nbsp;--G8RTOS_Scheduler.c: This file holds all source code for the RTOS scheduler, containing dependencies and externs, defines,\ 
-&nbsp;&nbsp;&nbsp;&nbsp;data structures, private variables and functions, public variables and functions. The functions included are the RTOS launch,\ 
-&nbsp;&nbsp;&nbsp;&nbsp;intialization, adding threads and aperiodic events, get thread ID, and killing of threads\
-&nbsp;&nbsp;--G8RTOS_Scheduler.h: Header file for G8RTOS_Scheduler.c 
-&nbsp;&nbsp;--G8RTOS_SchedulerASM.s: This file holds all ASM functions needed for the scheduler, including context switching and starting the RTOS
-&nbsp;&nbsp;--G8RTOS_Semaphores.c: This file contains functions to initialize, wait, and signal semaphores for availability
-&nbsp;&nbsp;--G8RTOS_Semaphores.h: Header file for G8RTOS_Semaphores.c
-&nbsp;&nbsp;--G8RTOS_Structures.h: This header file contains data structures for thread control blocks, thread ID, and periodic events 
+**G8RTOS:** The G8RTOS folder contains many files that allow the operation of a Real-Time Operation System.\
+&nbsp;&nbsp;--G8RTOS.h: The G8RTOS header file contains include paths for the scheduler and semaphores.\
+&nbsp;&nbsp;--G8RTOS_CriticalSection.s: This file holds all ASM functions needed for a Critical Section, saving or restoring the state.\
+&nbsp;&nbsp;&nbsp;&nbsp;of the current PRIMASK (I-bit).\
+&nbsp;&nbsp;--G8RTOS_CriticalSection.h: Header file for G8RTOS_CriticalSection.s.\
+&nbsp;&nbsp;--G8RTOS_IPC.c: This file holds all source code for the FIFO structure and functions (Initialize, Read, Write, Get FIFO Size).\
+&nbsp;&nbsp;--G8RTOS_IPC.h: Header file for G8RTOS_IPC.c.\
+&nbsp;&nbsp;--G8RTOS_Scheduler.c: This file holds all source code for the RTOS scheduler, containing dependencies and externs, defines,\
+&nbsp;&nbsp;&nbsp;&nbsp;data structures, private variables and functions, public variables and functions. The functions included are the RTOS launch,\
+&nbsp;&nbsp;&nbsp;&nbsp;intialization, adding threads and aperiodic events, get thread ID, and killing of threads.\
+&nbsp;&nbsp;--G8RTOS_Scheduler.h: Header file for G8RTOS_Scheduler.c.\
+&nbsp;&nbsp;--G8RTOS_SchedulerASM.s: This file holds all ASM functions needed for the scheduler, including context switching and starting the RTOS.\
+&nbsp;&nbsp;--G8RTOS_Semaphores.c: This file contains functions to initialize, wait, and signal semaphores for availability.\
+&nbsp;&nbsp;--G8RTOS_Semaphores.h: Header file for G8RTOS_Semaphores.c.\
+&nbsp;&nbsp;--G8RTOS_Structures.h: This header file contains data structures for thread control blocks, thread ID, and periodic events.\
 
 **Game.c & Game.h:**
 
