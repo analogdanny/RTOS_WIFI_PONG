@@ -15,7 +15,7 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
 
 ## Description of Packages
 **BoardSupportPackage:** This board support package holds software containing TI MSP432P401R Launchpad drivers and routines.\
-**CC3100SupportPackage:** This support package holds software containing SimpleLink Wi-Fi CC3100 BoosterPack drivers and routines.\
+**CC3100SupportPackage:** This support package holds software containing SimpleLink Wi-Fi CC3100 BoosterPack drivers and routines.
 
 ## Description of Files and Folders
 **G8RTOS:** The G8RTOS folder contains many files that allow the operation of a Real-Time Operation System.\
