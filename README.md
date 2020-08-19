@@ -14,7 +14,7 @@ scheduling improvement, while also trying to reduce lag inbetween the host/clien
             FIFOs, and aperiodic events, interfaceable with a touch screen LCD.
 
 ## Description of Packages
-**BoardSupportPackage:** This board support package holds software containing TI MSP432P401R Launchpad drivers and routines.\
+**BoardSupportPackage:** This board support package holds software containing TI MSP432P401R Launchpad drivers and routines, along with the written RGBLeds drivers.\
 **CC3100SupportPackage:** This support package holds software containing SimpleLink Wi-Fi CC3100 BoosterPack drivers and routines.
 
 ## Description of Files and Folders
